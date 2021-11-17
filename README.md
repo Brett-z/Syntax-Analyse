@@ -42,10 +42,13 @@ int a = 1, b = 2;
 int array[3] = {1,2,3};
 ```
 测试预期：由于 CompUnit 有两个子节点(均为 Decl)，此处将两个 Decl 节点(Decl 1 & Decl 2)分开表示。
+
 ![节点图](https://images.gitee.com/uploads/images/2021/1117/165926_a5ec4847_9865699.png "N1RRV7%Q]042%A{S7KKGGSC.png")
-graph by 王云青
+
 
 测试结果：
+
+
 ![测试结果](https://images.gitee.com/uploads/images/2021/1117/170039_17380bd2_9865699.png "%PE{S%$[}N((_FJMKW[DU}M.png")
 
 ## 作者
