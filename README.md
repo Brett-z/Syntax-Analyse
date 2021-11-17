@@ -2,7 +2,9 @@
 
 ## 介绍&使用说明
 
-本次实验在词法分析的基础上，修改了 .l 文件来完成文件的读取，参照 SysY 语言的语法规则来编写了递归下降程序rdcheck.c来对测试用例的语法进行分析，并在此基础上完成了rdparser.c来生成语法树。
+本次实验在词法分析的基础上，修改了 .l 文件来完成文件的读取，参照 SysY 语言的语法规则来编写了递归下降程序rdcheck.c来对测试用例的语法进行分析，并在此基础上完成了rdparser.c来生成语法树。参照如下语法规则：
+
+![sysy语法](https://images.gitee.com/uploads/images/2021/1117/165328_aa4cae8e_9865699.png "RW]X@(~OTOF}4JZOZ9EJGY2.png")
 
 1. rdcheck.c 文件为不生成AST的语法分析器；
 2. rdparser.c 文件为生成AST的语法分析器；
