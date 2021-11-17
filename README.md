@@ -15,7 +15,7 @@
 gcc -o test rdcheck.c lex.yy.c
 ~~~
 
-5. lex.yy.c 为 sysy_lex.l 经过flex工具生成的词法分析器，具体使用可见词法分析器章节：https://gitee.com/Brett-Tseng/Lexical_Analysis
+5. lex.yy.c 为 sysy_lex.l 经过flex工具生成的词法分析器，具体使用可见词法分析器章节：https://github.com/Brett-z/Lexical_Analysis
 
 ### 注意：在进行rdparser.c的测试时：
 
